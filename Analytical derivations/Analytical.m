@@ -7,10 +7,12 @@ theta_diff = asin(7.5/12);
 r_large = 12*1e-3;
 r_small = 10*1e-3;
 turn_ratio = 250;
+current = 3;
 Req = zeros (1,1801);
 R1 = zeros (1,1801);
 R2 = zeros (1,1801);
 L = zeros (1,1801);
+Torque = zeros (1,1801);
 theta = linspace(0,180,1801);
 % Theta = 0
 % R1 = 2*air_gap_small/(perm_air*((2*theta_diff)/(2*pi))*2*pi*r_large*core_depth);
@@ -40,6 +42,12 @@ for i=0:1:1800 %%0.1degree step
     end
     
 end
+
+for i=0:1:1799
+    Torque(i+1)= current^2*(L(i+2)-L(i+1))/(pi*0.1/180)/2;
+end
+    Torque(1801)= Torque(1800);
+    
 plot(theta,L);
 grid on;
 xlabel('Theta (degree)');
@@ -52,5 +60,12 @@ grid on;
 xlabel('Theta (degree)');
 ylabel('Reluctance (1/H)');
 title('Reluctance of the System');
+figure;
+
+plot(theta,Torque);
+grid on;
+xlabel('Theta (degree)');
+ylabel('Torque (Nm)');
+title('Torque of the System');
 
             
