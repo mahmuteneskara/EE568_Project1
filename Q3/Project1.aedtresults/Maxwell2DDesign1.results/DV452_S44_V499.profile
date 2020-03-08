@@ -1,0 +1,37 @@
+$begin 'Profile'
+	$begin 'ProfileGroup'
+		StartInfo='Time:  03/08/2020 16:12:55; Host: ST-BILGISAYAR; Processor: 4; OS: NT 6.1; Maxwell 2D 2018.2.0'
+		TotalInfo='Time:  03/08/2020 16:13:00, Status: Normal Completion'
+		ProfileTask('', 0, 0, 0, 0, 0, 'Executing from C:\\Program Files\\AnsysEM\\AnsysEM19.2\\Win64\\MAXWELL2DCOMENGINE.exe', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Desired RAM limit not set.', false, true)
+		ProfileTask('  TAU_2D(Surface init)', 0, 0, 0, 0, 31000, '554 triangles', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Pass 1', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('    Solver DRS, 4 calls', 0, 0, 0, 0, 340, '1037 matrix,    0KB disk', true, true)
+		ProfileTask('  SolvingForPass', 0, 0, 0, 0, 32356, '554 triangles', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Pass 2', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('    Solver DRS, 4 calls', 0, 0, 0, 0, 461, '1373 matrix,    0KB disk', true, true)
+		ProfileTask('  SolvingForPass', 0, 0, 0, 0, 34744, '722 triangles', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Pass 3', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('    Solver DRS, 4 calls', 0, 0, 0, 0, 615, '1809 matrix,    0KB disk', true, true)
+		ProfileTask('  SolvingForPass', 0, 0, 0, 0, 37436, '940 triangles', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Pass 4', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('    Solver DRS, 5 calls', 0, 0, 0, 0, 828, '2373 matrix,    0KB disk', true, true)
+		ProfileTask('  SolvingForPass', 0, 0, 0, 0, 40508, '1222 triangles', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Pass 5', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('    Solver DRS, 5 calls', 0, 0, 0, 0, 1109, '3109 matrix,    0KB disk', true, true)
+		ProfileTask('  SolvingForPass', 1, 0, 0, 0, 45036, '1590 triangles', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Pass 6', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('    Solver DRS, 5 calls', 1, 0, 0, 0, 1461, '4065 matrix,    0KB disk', true, true)
+		ProfileTask('    Solver DRS', 0, 0, 0, 0, 1461, '4065 matrix,    0KB disk', true, true)
+		ProfileTask('  SolvingForPass', 0, 0, 0, 0, 51752, '2068 triangles', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Adaptive Passes converged', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:05 , Maxwell2D ComEngine Memory : 57.9 M', false, true)
+	$end 'ProfileGroup'
+$end 'Profile'

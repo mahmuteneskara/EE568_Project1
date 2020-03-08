@@ -1,0 +1,94 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002020, month=000000000003, day=000000000008, hour=000000000019, min=000000000043, sec=000000000030)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000002193, lin=000000000074, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock19'
+	SimSetupID=220
+	SimSetupName='Setup1'
+	VersionID=2051
+	SolveSetupID=1
+	$begin 'StartingMesh'
+		IDDblMap(1274, -1)
+		$begin 'DataMap'
+			VID=1253
+			Ver=2051
+			SM(DblID=1274, Dir='DV1253_S220_V2051.smesh1274/')
+		$end 'DataMap'
+	$end 'StartingMesh'
+	$begin 'MeshOps'
+		OPS(VID=1253, Ver=2051, ID=0)
+	$end 'MeshOps'
+	$begin 'Profiles'
+		P(VID=1253, Ver=2051, File='DV1253_S220_V2051.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=1253, Ver=2051, Dir='DV1253_S220_MI0_V2051.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=1253, Ver=2051, Dir='DV1253_S220_V2051_MGI/')
+	$end 'MeshGeomInfo'
+	$begin 'AMOsetup'
+		AMO(VID=1253, Ver=2051, File='DV1253_S220_V2051.amo')
+	$end 'AMOsetup'
+$end 'SolutionBlock19'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=220, Instance=\'SetupDefinition\', Solution=-1, VersionID=2051)'='SolutionBlock19'
+	'SolutionKey(SimSetup=220, Instance=\'SolutionDefinition\', Solution=221, VersionID=2283)'='SolutionBlock39'
+$end 'BlockMapName'
+$begin 'SolutionBlock39'
+	SolutionName='Transient'
+	SolutionID=221
+	V=2283
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+$end 'SolutionBlock39'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Maxwell2DDesign2'
+	VersionID=224
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=2295
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=1253)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=1253, Ver=224, Dir='DV1253_V224.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=1253, Ver=224, Dir='DV1253_MI0_V224.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock39(pos=1434, lin=38, lvl=0)
+		SolutionBlock19(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=1682, lin=51, lvl=0)
+		BlockMapName(pos=1147, lin=33, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=2193, lin=74, lvl=0)
+	$end '$index$'
+$end '$index$'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

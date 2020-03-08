@@ -1,0 +1,6 @@
+Time_step 500
+Time_step_0 0
+current_time 0.1
+stepsize 0.0002
+timestep 500
+timestep_startpoint 0
