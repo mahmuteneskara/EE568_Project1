@@ -1,0 +1,138 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002020, month=000000000003, day=000000000031, hour=000000000022, min=000000000045, sec=000000000018)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000003370, lin=000000000119, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock73'
+	SolutionName='Transient'
+	SolutionID=67
+	V=402
+	$begin 'States'
+		F(VID=68, Ver=402)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'Fields'
+		IDDblMap(100, 6, 118, 0.06, 180, 0, 182, 0.005999999999999999, 184, 0.012, 186, 0.018, 188, 0.024, 190, 0.03, 192, 0.03600000000000002)
+		$begin 'DataMap'
+			VID=68
+			Ver=402
+			Field(DblID=180, Dir='DV68_SOL67_V402.Field180/')
+		$end 'DataMap'
+	$end 'Fields'
+	$begin 'PD'
+		NextUniqueID=125
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=118
+			PD(VID=68, Ver=118, File='DV68_SOL67_PD0_V118.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			Ver=118
+			PD(VID=68, Ver=118, File='DV68_SOL67_PD1_V118.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			Ver=118
+			PD(VID=68, Ver=118, File='DV68_SOL67_PD2_V118.sd')
+		$end 'SubData'
+	$end 'PD'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=68, Ver=402, File='DV68_SOL67_NFSP10_V402.sd')
+		$end 'SubData'
+	$end 'NFSP'
+	$begin 'EngineSolutionData'
+		Data(VID=68, Ver=402, Dir='DV68_SOL67_V402.Data/')
+	$end 'EngineSolutionData'
+$end 'SolutionBlock73'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=66, Instance=\'SetupDefinition\', Solution=-1, VersionID=402)'='SolutionBlock74'
+	'SolutionKey(SimSetup=66, Instance=\'SolutionDefinition\', Solution=67, VersionID=402)'='SolutionBlock73'
+$end 'BlockMapName'
+$begin 'SolutionBlock74'
+	SimSetupID=66
+	SimSetupName='Setup1'
+	VersionID=402
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		IDDblMap(99, 6, 117, 0.06, 179, 0, 181, 0.005999999999999999, 183, 0.012, 185, 0.018, 187, 0.024, 189, 0.03, 191, 0.03600000000000002)
+		$begin 'DataMap'
+			VID=68
+			Ver=402
+			M(DblID=179, Dir='DV68_S66_V402.cmesh179/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'StartingMesh'
+		IDDblMap(92, -1)
+		$begin 'DataMap'
+			VID=68
+			Ver=402
+			SM(DblID=92, Dir='DV68_S66_V402.smesh92/')
+		$end 'DataMap'
+	$end 'StartingMesh'
+	$begin 'MeshOps'
+		OPS(VID=68, Ver=402, ID=1, ID=2, ID=3, ID=4)
+	$end 'MeshOps'
+	$begin 'Profiles'
+		P(VID=68, Ver=402, File='DV68_S66_V402.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=68, Ver=402, Dir='DV68_S66_MI0_V402.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=68, Ver=402, Dir='DV68_S66_V402_MGI/')
+	$end 'MeshGeomInfo'
+	$begin 'AMOsetup'
+		AMO(VID=68, Ver=402, File='DV68_S66_V402.amo')
+	$end 'AMOsetup'
+$end 'SolutionBlock74'
+$begin 'SolutionBlock1'
+	ProductName='Maxwell 2D'
+	CircuitName='20poles24slots'
+	VersionID=312
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=431
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=68)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=68, Ver=312, Dir='DV68_V312.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=68, Ver=312, Dir='DV68_MI0_V312.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock1(pos=2862, lin=96, lvl=0)
+		SolutionBlock73(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=1550, lin=51, lvl=0)
+		SolutionBlock74(pos=1832, lin=56, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=3370, lin=119, lvl=0)
+	$end '$index$'
+$end '$index$'
